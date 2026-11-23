@@ -1,0 +1,6 @@
+# ⚠ Replace DOMAIN.TLD before going live.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://DOMAIN.TLD/sitemap.xml

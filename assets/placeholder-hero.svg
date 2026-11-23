@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="Placeholder: tunnel opening on Odderøya">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4b4740" />
+      <stop offset="1" stop-color="#23201c" />
+    </linearGradient>
+    <radialGradient id="mouth" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#6d675d" />
+      <stop offset="1" stop-color="#2a2621" />
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="6" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)" />
+
+  <!-- tunnel arch opening -->
+  <path d="M560 1000 V430 a240 240 0 0 1 480 0 V1000 Z" fill="url(#mouth)" filter="url(#soft)" />
+
+  <!-- suggestion of bare trees -->
+  <g stroke="#1d1a17" stroke-linecap="round" opacity="0.85">
+    <path d="M120 1000 V300" stroke-width="12" />
+    <path d="M250 1000 V210" stroke-width="9" />
+    <path d="M360 1000 V360" stroke-width="7" />
+    <path d="M470 1000 V260" stroke-width="11" />
+    <path d="M1130 1000 V250" stroke-width="10" />
+    <path d="M1250 1000 V330" stroke-width="8" />
+    <path d="M1380 1000 V190" stroke-width="12" />
+    <path d="M1500 1000 V320" stroke-width="7" />
+  </g>
+
+  <g stroke="#1d1a17" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <path d="M250 330 L170 250 M250 400 L340 320 M1380 300 L1300 230 M1380 380 L1470 300" />
+  </g>
+
+  <!-- ground -->
+  <rect y="880" width="1600" height="120" fill="#1b1815" opacity="0.9" />
+</svg>

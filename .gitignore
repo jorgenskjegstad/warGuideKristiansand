@@ -1,0 +1,5 @@
+# JetBrains IDE — local editor config, nothing the site needs
+.idea/
+
+# macOS
+.DS_Store

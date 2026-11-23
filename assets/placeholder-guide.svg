@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1000" width="880" height="1000" role="img" aria-label="Placeholder: portrait in the woods">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9d5cd" />
+      <stop offset="0.62" stop-color="#b3aea4" />
+      <stop offset="1" stop-color="#8e897f" />
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="1000" fill="url(#bg)" />
+
+  <!-- thin birch trunks -->
+  <g stroke="#6f6a61" stroke-linecap="round" opacity="0.75">
+    <path d="M70 640 V0" stroke-width="9" />
+    <path d="M180 640 V40" stroke-width="6" />
+    <path d="M300 620 V0" stroke-width="11" />
+    <path d="M620 620 V20" stroke-width="7" />
+    <path d="M740 640 V0" stroke-width="10" />
+    <path d="M830 640 V60" stroke-width="6" />
+  </g>
+
+  <!-- forest floor -->
+  <path d="M0 640 Q440 580 880 648 V1000 H0 Z" fill="#9c978c" />
+  <g fill="#cbc7bf" opacity="0.8">
+    <circle cx="150" cy="760" r="6" />
+    <circle cx="260" cy="820" r="5" />
+    <circle cx="420" cy="880" r="6" />
+    <circle cx="610" cy="800" r="5" />
+    <circle cx="730" cy="880" r="6" />
+    <circle cx="330" cy="700" r="4" />
+    <circle cx="540" cy="730" r="4" />
+  </g>
+
+  <!-- soft silhouette standing in the clearing -->
+  <g fill="#6a645c" opacity="0.5">
+    <ellipse cx="440" cy="300" rx="42" ry="48" />
+    <path d="M440 348 q92 18 96 230 q4 236 -16 250 h-160 q-20 -14 -16 -250 q4 -212 96 -230 Z" />
+  </g>
+
+  <!-- placeholder note -->
+  <text x="440" y="80" text-anchor="middle" font-family="monospace" font-size="22" letter-spacing="4" fill="#4a453f" opacity="0.6">
+    REPLACE WITH YOUR OWN PHOTO
+  </text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 864" width="1536" height="864" role="img" aria-label="Placeholder: ruin with three window openings">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9b958b" />
+      <stop offset="1" stop-color="#6e6961" />
+    </linearGradient>
+    <linearGradient id="opening" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f0ec" />
+      <stop offset="1" stop-color="#cfccc6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1536" height="864" fill="url(#wall)" />
+
+  <!-- sky above the broken wall -->
+  <path d="M0 0 H1536 V150 Q1150 110 760 140 Q380 170 0 128 Z" fill="url(#opening)" />
+
+  <!-- three window openings -->
+  <g fill="url(#opening)">
+    <path d="M360 330 q120 -40 240 0 V640 H360 Z" />
+    <path d="M648 320 q120 -40 240 0 V640 H648 Z" />
+    <path d="M936 330 q120 -40 240 0 V640 H936 Z" />
+  </g>
+
+  <!-- weathering -->
+  <g stroke="#5d584f" stroke-width="3" opacity="0.45" stroke-linecap="round">
+    <path d="M200 200 L230 420 M1320 220 L1290 450 M770 180 L760 300" />
+    <path d="M120 520 L180 560 M1400 540 L1340 585" />
+  </g>
+  <g fill="#5d584f" opacity="0.3">
+    <circle cx="300" cy="260" r="12" />
+    <circle cx="1230" cy="300" r="9" />
+    <circle cx="820" cy="520" r="7" />
+    <circle cx="470" cy="700" r="10" />
+  </g>
+
+  <!-- floor -->
+  <rect y="690" width="1536" height="174" fill="#4f4a43" />
+  <rect y="690" width="1536" height="14" fill="#8d877d" opacity="0.7" />
+
+  <text x="768" y="820" text-anchor="middle" font-family="monospace" font-size="24" letter-spacing="5" fill="#cfccc6" opacity="0.55">
+    REPLACE WITH YOUR OWN FOOTAGE
+  </text>
+</svg>
